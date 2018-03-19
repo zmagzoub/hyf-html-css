@@ -1,0 +1,128 @@
+body {
+  background-color:#202020;
+}
+a:link{color:white;}
+a:visited{color:white;}
+a:hover{color:grey;}
+a:active{color:grey;}
+a:focus{color:grey;}
+
+
+#logo{
+  margin:1px auto;
+  display:block;
+  margin-bottom:30px;
+}
+
+#kenblockimage{
+  width:100%;
+  border:3px ridge grey;      
+}
+
+#name{
+  font-size:40px;
+  color:#175E94;
+}
+
+h2 {
+  color:#175E94;
+  border-bottom:1px solid;
+  margin-top:40px;
+  font-size:35px  
+}
+
+p{
+  font-size:22px;
+  color:white;
+  font-family:"Courier New";
+  line-height:28px;
+}
+  
+#rallycar{
+  float:right;
+  width:500px;
+  margin-left:20px;
+  border:5px ridge grey;
+  margin-bottom:20px;
+  }
+
+h3{
+  color:#175E94;
+  text-decoration:underline;
+  font-size:25px;
+}
+
+#gymkhana{
+  margin-top:60px;
+}
+
+#video{
+  border:4px ridge grey;
+}
+
+table, tr, th, td{
+  border:1px solid white ;
+  border-collapse:collapse;
+  color:white;
+  padding:10px;
+  font-family:"Courier New";  
+}
+
+th{
+  font-size:20px;
+}
+
+td{
+  font-size:20px;
+}
+
+table{
+  width:80%;
+  margin-bottom:70px;
+}
+
+.kencars{
+  float:left;
+  width:500px;
+  margin-right:40px;
+  border:5px ridge grey;
+}
+
+.red{
+  color:#175E94;
+  font-weight:bold;
+}
+
+.blue{
+  color:#175E94;
+  font-weight:bold;
+  font-size:22px;
+  text-decoration:underline;
+}
+
+#car1{margin-top:100px;}
+#car11{margin-top:95px;}
+#car2{margin-top:200px;}
+#car22{margin-top:200px;}
+#car3{margin-top:210px;}
+#car33{margin-top:210px;}
+#car4{margin-top:200px;}
+#car44{margin-top:200px;}
+#car5{margin-top:230px;}
+#car55{margin-top:220px;}
+
+.lists{
+  color:white;
+  font-family:"Courier New";
+  margin-left:500px;
+  line-height:27px;
+  font-size:20px;
+}
+
+#sponsors{
+  margin-top:100px;
+}
+
+#sponsorsimg{
+  width:100%
+}
