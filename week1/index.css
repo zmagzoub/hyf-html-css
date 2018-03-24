@@ -8,14 +8,14 @@ article, aside, footer, header, main, nav, section {
 a:focus{
     outline: 3px solid black;
 }
-
 a:hover{
     color: grey;
 }
-
 body{
     background-color: #f0f0f0;
 }
+
+
 
 #container{
     margin: auto;
@@ -27,14 +27,13 @@ h1{
     color: white;
     text-align: center;
 }
-
 nav {
     background-color: #20416c;
     padding: 5px;
     margin-top: 3px;
     margin-left: 6px;
     margin-right: 6px;
-}
+  }
   
 .nav a{
     color: white;
@@ -47,7 +46,7 @@ nav {
     font-size: 20px;
     font-variant: small-caps;
     font-weight: bold;
-}
+  }
 
 #zaedimg{
     float: right;
@@ -56,7 +55,6 @@ nav {
     margin-top: 10px;
     margin-right: 10px;
 }
-
 section{
     background-color: #11233b;
     margin:2px;
@@ -64,16 +62,15 @@ section{
     font-family: Georgia, serif;
     margin-bottom: 2px;
 }
-
 header{
     padding: 4px;
     color: white;
 }
-
 .bio{
     margin-bottom: 18px;
     margin-top: 15px;
     width: 600px;
+
 }
 
 .inside{
@@ -85,11 +82,9 @@ header{
 #perinftable{
     width: 520px;
 }
-
 #educationtable{
     width: 720px;
 }
-
 #worktable{
     width: 700px;
 }
