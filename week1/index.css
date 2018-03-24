@@ -76,7 +76,7 @@ header{
     width: 600px;
 }
 
-article{
+.inside{
     background-color: white;
     padding: 7px;
     color: black;
