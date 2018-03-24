@@ -1,0 +1,113 @@
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+
+a:focus{
+    outline: 3px solid black;
+}
+
+a:hover{
+    color: grey;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+#container{
+    margin: auto;
+    width: 800px;
+    bakground-color: rgb(36, 32, 32);
+}
+
+h1{
+    background-color: #11233b;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: #20416c;
+    padding: 5px;
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+  
+.nav a{
+    color: white;
+} 
+  
+.nav {
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#zaedimg{
+    float: right;
+    width: 140px;
+    border: 2px ridge grey;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+section{
+    background-color: #11233b;
+    margin:2px;
+    padding: 4px;
+    font-family: Georgia, serif;
+    margin-bottom: 2px;
+}
+
+header{
+    padding: 4px;
+    color: white;
+}
+
+.bio{
+    margin-bottom: 18px;
+    margin-top: 15px;
+    width: 600px;
+}
+
+article{
+    background-color: white;
+    padding: 7px;
+    color: black;
+}
+
+#perinftable{
+    width: 520px;
+}
+
+#educationtable{
+    width: 720px;
+}
+
+#worktable{
+    width: 700px;
+}
+
+li{
+    margin: 8px;
+}
+
+.links{
+    color: #267fa8;
+}
+
+#hyf{
+    margin-bottom: 0px;
+}
+
+.lists{
+    margin-top: 7px;
+    margin-left: 10px;
+}
