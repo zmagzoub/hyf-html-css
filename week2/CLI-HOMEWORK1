@@ -1,0 +1,16 @@
+1- To hide a file: "attrib +s +h (file name)"
+   To display a hidden file: "attrib -s -h (file name)"
+   
+2- To create multiple nested directories with one mkdir command: "mkdir -p file1/file2/file3/......."
+
+3- Execute following commands terminal:
+   echo "test" > fun
+   echo "another test" >> fun
+   wc -c fun
+   
+   The result is : 18 fun
+   
+4- To get the output "testanother test", the command will be:
+   echo "testanother test" > fun
+   cat fun
+   testanother test
