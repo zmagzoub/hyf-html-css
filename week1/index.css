@@ -8,7 +8,7 @@ a:focus{
     outline: 3px solid black;
 }
 a:hover{
-    color: grey;
+    background-color: grey;
 }
 body{
     background-color: #f0f0f0;
