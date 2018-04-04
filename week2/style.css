@@ -43,7 +43,7 @@ li img{
 #grid-floats li{
     float: left;
     width: 22%;
-    height: 500px;
+    height: 570px;
     border: 3px ridge rgb(121, 114, 114);
     text-align: center;
     margin: 1%;
@@ -121,7 +121,7 @@ li img{
 
 #grid-flex li{
     width: 22%;
-    height: 500px;
+    height: 570px;
     border: 3px ridge rgb(121, 114, 114);
     text-align: center;
     margin: 1%;
