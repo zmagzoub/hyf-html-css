@@ -1,10 +1,10 @@
 *{
+ 
     box-sizing: border-box;
 }
 
 body{
     background-color: #B7695C;
-    margin: 0 auto;
     width: 100%;
     font-family: Georgia, serif;
 }
@@ -43,12 +43,12 @@ li img{
 #grid-floats li{
     float: left;
     width: 22%;
-    height: 630px;
+    height: 500px;
     border: 3px ridge rgb(121, 114, 114);
     text-align: center;
     margin: 1%;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 5px;
     background-color:#51A39D;
 }
 
@@ -57,8 +57,10 @@ li img{
 @media (min-width:769px) {
 
     #grid-floats li:nth-child(1) {
+
         width:46%;
         background-color: #CDBB79;
+
     }
 
 }
@@ -66,8 +68,13 @@ li img{
 /* tablet */
 
 @media (min-width: 481px) and (max-width: 768px) {
-
-    #grid-floats li {width:30.66666%;}
+    #grid-floats{
+        margin-right: 5%;
+    }
+    #grid-floats li {
+        width:30.66666%;
+        height: 600px;
+    }
 
     #grid-floats li:nth-child(1) {
         width:47%;
@@ -84,16 +91,22 @@ li img{
 /* mobile */
 
 @media (max-width: 480px) {
-    #grid-floats li {width:46%;}
+    #grid-floats{
+        margin-right: 7%;
+    }
+    #grid-floats li {
+        width:46%;
+        height: 660px;
+    }
     #grid-floats li:nth-child(1) {width: 94%;
     background-color: #CDBB79;
     }
 }
-
-#grid-floats li:hover{
-    font-size: 1.1em;
+    #grid-floats li:hover{
+    font-size: 1.05em;
     background-color: rgb(158, 158, 158);
 }
+
 
 
 
@@ -108,12 +121,11 @@ li img{
 
 #grid-flex li{
     width: 22%;
-    height: 630px;
+    height: 500px;
     border: 3px ridge rgb(121, 114, 114);
     text-align: center;
     margin: 1%;
     margin-bottom: 30px;
-    padding: 4px;
     background-color:#51A39D;
     padding: 5px;
 }
@@ -125,12 +137,19 @@ li img{
         width:46%;
         background-color: #CDBB79;
     }
+    
 }
 
 /* tablet */
 
 @media (min-width: 481px) and (max-width: 768px) {
-    #grid-flex li {width: 30.66666%;}
+    #grid-flex{
+        margin-right: 5%;
+    }
+    #grid-flex li {
+        width: 30.66666%;
+        height: 600px;
+    }
     #grid-flex li:nth-child(1) {
         width: 47%;
         background-color: #CDBB79;
@@ -145,7 +164,13 @@ li img{
 /* mobile */
 
 @media (max-width: 480px) {
-    #grid-flex li {width: 46%;}
+    #grid-flex{
+        margin-right: 7%;
+    }
+    #grid-flex li {
+        width: 46%;
+        height: 660px ;
+        }
     #grid-flex li:nth-child(1) {
         width: 94%;
         background-color: #CDBB79;
@@ -153,6 +178,6 @@ li img{
 }
 
 #grid-flex li:hover{
-    font-size: 1.1em;
+    font-size: 1.05em;
     background-color: rgb(158, 158, 158);
 }
