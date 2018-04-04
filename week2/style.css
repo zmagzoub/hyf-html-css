@@ -90,7 +90,7 @@ li img{
 
 /* mobile */
 
-@media (max-width: 480) {
+@media (max-width: 480px) {
     #grid-floats{
         margin-right: 8%;
     }
