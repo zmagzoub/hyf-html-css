@@ -69,7 +69,7 @@ li img{
 
 @media (min-width: 481px) and (max-width: 768px) {
     #grid-floats{
-        margin-right: 5%;
+        margin-right: 7%;
     }
     #grid-floats li {
         width:30.66666%;
@@ -92,7 +92,7 @@ li img{
 
 @media (max-width: 480px) {
     #grid-floats{
-        margin-right: 8%;
+        margin-right: 9%;
     }
     #grid-floats li {
         width:46%;
@@ -144,7 +144,7 @@ li img{
 
 @media (min-width: 481px) and (max-width: 768px) {
     #grid-flex{
-        margin-right: 5%;
+        margin-right: 7%;
     }
     #grid-flex li {
         width: 30.66666%;
@@ -165,7 +165,7 @@ li img{
 
 @media (max-width: 480px) {
     #grid-flex{
-        margin-right: 8%;
+        margin-right: 9%;
     }
     #grid-flex li {
         width: 46%;
