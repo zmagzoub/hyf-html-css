@@ -90,13 +90,13 @@ li img{
 
 /* mobile */
 
-@media (max-width: 480px) {
+@media (max-width: 480) {
     #grid-floats{
-        margin-right: 7%;
+        margin-right: 8%;
     }
     #grid-floats li {
         width:46%;
-        height: 660px;
+        height: 700px;
     }
     #grid-floats li:nth-child(1) {width: 94%;
     background-color: #CDBB79;
@@ -165,11 +165,11 @@ li img{
 
 @media (max-width: 480px) {
     #grid-flex{
-        margin-right: 7%;
+        margin-right: 8%;
     }
     #grid-flex li {
         width: 46%;
-        height: 660px ;
+        height: 700px ;
         }
     #grid-flex li:nth-child(1) {
         width: 94%;
