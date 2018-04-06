@@ -14,3 +14,40 @@
    echo "testanother test" > fun
    cat fun
    testanother test
+   
+----------------------------------------------------------------------------------   
+
+The commands:
+
+Zaed Magzoub@LAPTOP-VQ6AQFLO MINGW64 ~
+$ pwd
+/c/Users/acer
+
+Zaed Magzoub@LAPTOP-VQ6AQFLO MINGW64 ~
+$ mkdir zaed
+
+Zaed Magzoub@LAPTOP-VQ6AQFLO MINGW64 ~
+$ attrib +s +h zaed
+
+Zaed Magzoub@LAPTOP-VQ6AQFLO MINGW64 ~
+$ attrib -s -h zaed
+
+Zaed Magzoub@LAPTOP-VQ6AQFLO MINGW64 ~
+$ mkdir -p zaed1/zaed2/zaed3/zaed4
+
+Zaed Magzoub@LAPTOP-VQ6AQFLO MINGW64 ~
+$ echo "test" > fun
+
+Zaed Magzoub@LAPTOP-VQ6AQFLO MINGW64 ~
+$ echo "another test" >> fun
+
+Zaed Magzoub@LAPTOP-VQ6AQFLO MINGW64 ~
+$ wc -c fun
+18 fun
+
+Zaed Magzoub@LAPTOP-VQ6AQFLO MINGW64 ~
+$ echo "testanother test" > fun
+
+Zaed Magzoub@LAPTOP-VQ6AQFLO MINGW64 ~
+$ cat fun
+testanother test
