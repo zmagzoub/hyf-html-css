@@ -11,7 +11,8 @@
    The result is : 18 fun
    
 4- To get the output "testanother test", the command will be:
-   echo "testanother test" > fun
+   echo -n "testanother" > fun
+   echo "test" >> fun
    cat fun
    testanother test
    
